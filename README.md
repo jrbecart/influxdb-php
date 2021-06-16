@@ -1,8 +1,8 @@
 # influxdb-php
 ## InfluxDB client library for PHP
-[![Build Status](https://travis-ci.org/influxdata/influxdb-php.svg?branch=master)](https://travis-ci.org/influxdata/influxdb-php)
-[![Code Climate](https://codeclimate.com/github/influxdata/influxdb-php/badges/gpa.svg)](https://codeclimate.com/github/influxdata/influxdb-php)
-[![Test Coverage](https://codeclimate.com/github/influxdata/influxdb-php/badges/coverage.svg)](https://codeclimate.com/github/influxdata/influxdb-php/coverage)
+[![Build Status](https://travis-ci.org/jrbecart/influxdb-php.svg?branch=master)](https://travis-ci.org/jrbecart/influxdb-php)
+[![Code Climate](https://codeclimate.com/github/jrbecart/influxdb-php/badges/gpa.svg)](https://codeclimate.com/github/jrbecart/influxdb-php)
+[![Test Coverage](https://codeclimate.com/github/jrbecart/influxdb-php/badges/coverage.svg)](https://codeclimate.com/github/jrbecart/influxdb-php/coverage)
 
 #### Note: This library is for use with InfluxDB 1.x. For connecting to InfluxDB 2.x instances, please use the [influxdb-client-php](https://github.com/influxdata/influxdb-client-php) client.
 
@@ -18,7 +18,7 @@ This way there will be a common abstraction library between different programmin
 Installation can be done with composer:
 
 ``` bash
-$ composer require influxdb/influxdb-php
+$ composer require jrbecart/influxdb-php
 ```
 
 ### NOTE for PHP 5.3 and PHP 5.4 users
