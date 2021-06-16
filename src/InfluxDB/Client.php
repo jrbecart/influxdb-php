@@ -130,7 +130,10 @@ class Client
         }
 
         // the the base URI
-        $this->baseURI = sprintf('%s://%s:%d', $this->scheme, $this->host, $this->port);
+        if(empty($this->port))
+            $this->baseURI = sprintf('%s://%s', $this->scheme, $this->host);
+        else
+            $this->baseURI = sprintf('%s://%s:%d', $this->scheme, $this->host, $this->port);
 
         // delay driver instantiation until it's actually needed
         $this->driver = null;
